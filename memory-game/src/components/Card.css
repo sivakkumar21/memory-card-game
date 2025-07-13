@@ -1,0 +1,19 @@
+
+.card-container
+{
+  aspect-ratio: 1 / 1; /* 🟪 Makes it perfectly square */
+  width: 100%;          /* 🔁 Fill the grid cell */
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+.card-image
+{
+    height: 80%;
+    width: 80%;
+}
