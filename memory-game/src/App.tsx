@@ -1,8 +1,17 @@
 import { useEffect, useState } from "react";
 import Card from "./components/Card";
 import "./App.css";
-import { getShuffledCards } from "./utlis";
+import { getShuffledCards, preloadImages } from "./utlis";
 import type { ICard } from "./types";
+import aeroplane from "./assets/aeroplane.jpg";
+import car from "./assets/car.jpg";
+import chotaBeem from "./assets/chotaBeem.jpg";
+import cloud from "./assets/cloudy.png";
+import tiger from "./assets/tiger.png";
+import pumpkin from "./assets/pumpkin.png";
+import panda from "./assets/panda.png";
+import dora from "./assets/dora.png";
+
 
 export default function App() {
   const [cards, setCards] = useState<ICard[] | null>(null);
@@ -11,6 +20,16 @@ export default function App() {
   const [isGameFinished, setIsGameFinished] = useState<boolean>(false);
 
   useEffect(() => {
+    preloadImages([
+  aeroplane,
+  car,
+  chotaBeem,
+  cloud,
+  tiger,
+  pumpkin,
+  panda,
+  dora,
+])
     setCards(getShuffledCards());
   }, []);
 

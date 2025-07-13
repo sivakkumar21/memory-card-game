@@ -35,3 +35,11 @@ export function getShuffledCards() {
     })
     .sort(() => Math.random() - 0.5);
 }
+
+
+export function preloadImages(imageUrls: string[]) {
+  imageUrls.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+}
