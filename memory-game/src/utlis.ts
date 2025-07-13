@@ -1,17 +1,17 @@
-import aeroplane from "./assets/aeroplane.jpg";
+// import aeroplane from "./assets/aeroplane.jpg";
 import car from "./assets/car.jpg";
 import chotaBeem from "./assets/chotaBeem.jpg";
-import cloud from "./assets/cloudy.png";
+// import cloud from "./assets/cloudy.png";
 import tiger from "./assets/tiger.png";
 import pumpkin from "./assets/pumpkin.png";
 import panda from "./assets/panda.png";
 import dora from "./assets/dora.png";
 
 const cardImages = [
-  aeroplane,
+  // aeroplane,
   car,
   chotaBeem,
-  cloud,
+  // cloud,
   tiger,
   pumpkin,
   panda,

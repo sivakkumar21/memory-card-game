@@ -75,7 +75,7 @@ export default function App() {
       ) : (
         <div className="title">
           {" "}
-          🧠 Memory Game for&nbsp;
+          🎈 Memory Game for&nbsp;
           <span style={{ color: "#ff5e57" }}>Mithu!!!</span> 🎈
         </div>
       )}
